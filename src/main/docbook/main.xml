@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en">
+  <info>
+    <title>My DocBook Template</title>
+    <copyright>
+      <year>2012</year>
+      <holder>Fictional company</holder>
+    </copyright>
+
+    <authorgroup>
+      <author>
+	<personname>
+	  <firstname>Jose Miguel</firstname>
+	  <surname>Martinez</surname>
+	  <email>email@example.com</email>
+	</personname>
+	<affiliation>
+	  <orgname>Fictional company</orgname>
+	  <orgdiv>Awesome Team</orgdiv>
+	  <jobtitle>DocBook user</jobtitle>
+	</affiliation>
+      </author>
+    </authorgroup>
+  </info>
+
+  <revhistory>   
+    <revision>
+      <revnumber>0.1</revnumber>
+      <date>22 Feb 2012</date>
+      <authorinitials>jm2dev</authorinitials>
+      <revremark>Initial draft.</revremark>
+    </revision>
+  </revhistory>
+
+  <!-- overview -->
+  <xi:include href="sections/overview.xml" parse="xml" />
+
+  <!-- install -->
+  <xi:include href="sections/install.xml" parse="xml" />
+
+  <!-- build -->
+  <xi:include href="sections/build.xml" parse="xml" />
+
+  <!-- bibliography -->
+  <xi:include href="bibliography.xml" parse="xml" />
+
+</article>
+

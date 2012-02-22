@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bibliography xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en"
+	 id="bibliography">
+
+  <title>References</title>
+
+  <bibliodiv>
+    <title>Web sites</title>
+
+    <biblioentry xreflabel="sbt">
+      <title>SBT web</title>
+      <bibliosource>
+	<ulink url="https://github.com/harrah/xsbt" />
+      </bibliosource>
+    </biblioentry>
+
+    <biblioentry xreflabel="DocBook">
+      <title>DocBook</title>
+      <bibliosource>
+	<ulink url="https://www.docbook.org" />
+      </bibliosource>
+    </biblioentry>
+
+    <biblioentry xreflabel="sbt-docbook-plugin">
+      <title>SBT DocBook plugin</title>
+      <bibliosource>
+	<ulink url="http://www.cakesolutions.net/teamblogs/2012/01/20/sbt-docbook-plugin/" />
+      </bibliosource>
+    </biblioentry>
+
+  </bibliodiv>
+
+</bibliography>

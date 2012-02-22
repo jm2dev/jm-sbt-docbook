@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en"
+	 id="overview">
+
+    <title>Overview</title>
+
+    <para>Simple modular <citation>DocBook</citation> project for <citation>sbt</citation> 0.11.2 using
+    <citation>sbt-docbook-plugin</citation> built locally.</para>
+ 
+</section>

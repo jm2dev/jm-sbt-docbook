@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en"
+	 id="Build">
+
+    <title>Build</title>
+
+    <para>If you clone this project, you can generate pdf and xhtml
+    with the following command:</para>
+
+    <programlisting>
+      $ sbt pdf xhtml
+    </programlisting>
+</section>

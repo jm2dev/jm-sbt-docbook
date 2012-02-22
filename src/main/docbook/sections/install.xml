@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en"
+	 id="Install">
+
+    <title>Installation</title>
+
+    <section>
+      <title>SBT</title>
+
+      <para>Get latest <citation>sbt</citation>, this project uses
+      0.11.2</para>
+    </section>
+
+    <section>
+      <title>DocBook plugin</title>
+
+      <para>The original plugin did not worked for me due to missing
+      dependencies, as I managed to make it work from a forked
+      version, and in order to share what I learned and provide a
+      sample project, I decided to fork it and publish it to my local
+      ivy cache.</para>
+
+      <programlisting>
+        $ git clone git@github.com:jm2dev/sbt-docbook-plugin.git
+        $ cd sbt-docbook-plugin
+        $ sbt package publish-local
+      </programlisting>
+
+    </section>
+</section>
